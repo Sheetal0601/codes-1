@@ -17,7 +17,7 @@ int main() {
       if (isdigit(s[i]))
          hasdigit = true;
 	  }
-	  if(haslower&&hasupper&&hasdigit)
+	  if(haslower&&hasupper&&hasdigit==true)
 	  {
 	      cout<<"YES"<<"\n";
 	  }
