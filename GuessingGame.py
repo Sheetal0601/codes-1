@@ -1,5 +1,7 @@
 #guessing game
 #getting better
+import numpy as np
+import pandas as pn
 import random as rn 
 correct_number = rn.randrange(1,20,1)
 
