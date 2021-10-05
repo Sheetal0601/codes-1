@@ -32,6 +32,8 @@ int main(){
         }
         Solution obj;
         cout << obj.snowball(N, weights) << "\n";
+        cout << obj.snowball(N, weights) << "\n";
+        cout << obj.snowball(N, weights) << "\n";
     }
 }
   // } Driver Code Ends

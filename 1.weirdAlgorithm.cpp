@@ -11,7 +11,7 @@ void sol()
   cout<<n<<" ";
   while(n!=1){
     
-    if(n&1==1)
+    if(n%2==1)
     {n=3*n+1;
       std::cout<<n<<" ";
       
@@ -20,6 +20,7 @@ void sol()
     {
       n=n/2;
      std::cout<<n<<" ";
+        cout<<endl;
     }
   }
   
